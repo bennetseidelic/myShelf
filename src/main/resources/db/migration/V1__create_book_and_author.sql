@@ -8,6 +8,6 @@ CREATE TABLE book (
     title VARCHAR(255) NOT NULL,
     pages INTEGER,
     status VARCHAR(64) NOT NULL,
-    authorId INTEGER REFERENCES author(id)
+    author_id INTEGER REFERENCES author(id)
 );
 
